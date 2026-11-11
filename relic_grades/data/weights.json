@@ -1,0 +1,4240 @@
+{
+ "1001": {
+  "element": "Ice",
+  "flatMainstatBoost": "DEF",
+  "name": "March 7th",
+  "parts": {
+   "Body": [
+    "DEF%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "DEF%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "DEF%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "DEF%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 1.0,
+   "DEF%": 1.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1002": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Dan Heng",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1003": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Himeko",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Fire DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1004": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Welt",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Imaginary DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1004b1": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Welt",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Imaginary DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1005": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Kafka",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.5,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1005b1": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Kafka",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1006": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Silver Wolf",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "Quantum DMG Boost",
+    "ATK%",
+    "HP%",
+    "DEF%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1006b1": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Silver Wolf",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "Quantum DMG Boost",
+    "ATK%",
+    "HP%",
+    "DEF%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1008": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Arlan",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1009": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Asta",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.25,
+   "DEF%": 0.25,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.25,
+   "HP%": 0.25,
+   "SPD": 1.0
+  }
+ },
+ "1013": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Herta",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1014": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Saber",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1015": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Archer",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1101": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Bronya",
+  "parts": {
+   "Body": [
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1102": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Seele",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1102b1": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Seele",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1103": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Serval",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1104": {
+  "element": "Ice",
+  "flatMainstatBoost": "DEF",
+  "name": "Gepard",
+  "parts": {
+   "Body": [
+    "DEF%"
+   ],
+   "Feet": [
+    "DEF%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "DEF%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "DEF%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 1.0,
+   "DEF%": 1.0,
+   "Effect Hit Rate": 0.75,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1105": {
+  "element": "Physical",
+  "flatMainstatBoost": "HP",
+  "name": "Natasha",
+  "parts": {
+   "Body": [
+    "HP%",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "HP%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1106": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Pela",
+  "parts": {
+   "Body": [
+    "Effect Hit Rate",
+    "HP%",
+    "DEF%"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "DEF%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.25,
+   "DEF%": 0.25,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.25,
+   "HP": 0.25,
+   "HP%": 0.25,
+   "SPD": 1.0
+  }
+ },
+ "1107": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Clara",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1108": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Sampo",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1109": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Hook",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Fire DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1110": {
+  "element": "Quantum",
+  "flatMainstatBoost": "HP",
+  "name": "Lynx",
+  "parts": {
+   "Body": [
+    "HP%",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "HP%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1111": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Luka",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1112": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Topaz & Numby",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Fire DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1201": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Qingque",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1202": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Tingyun",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "HP%",
+    "DEF%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "DEF%",
+    "ATK%"
+   ]
+  },
+  "path": "Harmony",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.25,
+   "DEF%": 0.25,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.25,
+   "HP%": 0.25,
+   "SPD": 1.0
+  }
+ },
+ "1203": {
+  "element": "Imaginary",
+  "flatMainstatBoost": "ATK",
+  "name": "Luocha",
+  "parts": {
+   "Body": [
+    "Outgoing Healing Boost",
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "HP%",
+    "DEF%"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1204": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Jing Yuan",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1205": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Blade",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%"
+   ],
+   "PlanarSphere": [
+    "Wind DMG Boost",
+    "HP%"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.25,
+   "ATK%": 0.25,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1205b1": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Blade",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "HP%"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%"
+   ],
+   "PlanarSphere": [
+    "Wind DMG Boost",
+    "HP%"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1206": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Sushang",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1207": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Yukong",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Imaginary DMG Boost"
+   ]
+  },
+  "path": "Harmony",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1208": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Fu Xuan",
+  "parts": {
+   "Body": [
+    "HP%",
+    "DEF%"
+   ],
+   "Feet": [
+    "HP%",
+    "DEF%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "HP%",
+    "DEF%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "DEF%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.75,
+   "DEF%": 0.75,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1209": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Yanqing",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1210": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Guinaifen",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Fire DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.5,
+   "ATK%": 0.5,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.25,
+   "DEF%": 0.25,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.25,
+   "HP": 0.25,
+   "HP%": 0.25,
+   "SPD": 1.0
+  }
+ },
+ "1211": {
+  "element": "Lightning",
+  "flatMainstatBoost": "HP",
+  "name": "Bailu",
+  "parts": {
+   "Body": [
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1212": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Jingliu",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1212b1": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Jingliu",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "HP%"
+   ],
+   "Feet": [
+    "HP%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1213": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Dan Heng \u2022 Imbibitor Lunae",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Imaginary DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1214": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Xueyi",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "Quantum DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 1.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1215": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Hanya",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.25,
+   "DEF%": 0.25,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.25,
+   "HP%": 0.25,
+   "SPD": 1.0
+  }
+ },
+ "1217": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Huohuo",
+  "parts": {
+   "Body": [
+    "HP%",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1217b1": {
+  "element": "Wind",
+  "flatMainstatBoost": "HP",
+  "name": "Huohuo",
+  "parts": {
+   "Body": [
+    "HP%",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1218": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Jiaoqiu",
+  "parts": {
+   "Body": [
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.5,
+   "ATK%": 0.5,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1220": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Feixiao",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1221": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Yunli",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1222": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Lingsha",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Outgoing Healing Boost",
+    "DEF%",
+    "HP%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect",
+    "Energy Regeneration Rate",
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "DEF%",
+    "HP%",
+    "Fire DMG Boost"
+   ]
+  },
+  "path": "Abundance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1223": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Moze",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1224": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "March 7th",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Hunt",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1225": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Fugue",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1301": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Gallagher",
+  "parts": {
+   "Body": [
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Abundance",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1302": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Argenti",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Physical DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1303": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Ruan Mei",
+  "parts": {
+   "Body": [],
+   "Feet": [],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1304": {
+  "element": "Imaginary",
+  "flatMainstatBoost": "DEF",
+  "name": "Aventurine",
+  "parts": {
+   "Body": [
+    "DEF%",
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "DEF%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "DEF%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Imaginary DMG Boost",
+    "DEF%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.25,
+   "CRIT Rate": 0.25,
+   "DEF": 1.0,
+   "DEF%": 1.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1305": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Dr. Ratio",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Imaginary DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1306": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Sparkle",
+  "parts": {
+   "Body": [
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1306b1": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Sparkle",
+  "parts": {
+   "Body": [
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1307": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Black Swan",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "Wind DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1307b1": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Black Swan",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "Wind DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1308": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Acheron",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "Lightning DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1309": {
+  "element": "Physical",
+  "flatMainstatBoost": "ATK",
+  "name": "Robin",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1310": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Firefly",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.5,
+   "ATK%": 0.5,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1310b1": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Firefly",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.5,
+   "ATK%": 0.5,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1312": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Misha",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 4,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1313": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Sunday",
+  "parts": {
+   "Body": [
+    "CRIT DMG"
+   ],
+   "Feet": [],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1314": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Jade",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1315": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Boothill",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.25,
+   "ATK%": 0.25,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.25,
+   "CRIT Rate": 0.25,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1317": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Rappa",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.5,
+   "ATK%": 0.5,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1321": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "The Dahlia",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "Break Effect"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1401": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "The Herta",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1402": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Aglaea",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.5,
+   "ATK%": 0.5,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1403": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Tribbie",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "HP%"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Quantum DMG Boost",
+    "HP%"
+   ]
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1404": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Mydei",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "HP%"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%"
+   ],
+   "PlanarSphere": [
+    "Imaginary DMG Boost",
+    "HP%"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1405": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Anaxa",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1406": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Cipher",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.5,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1407": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Castorice",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "HP%"
+   ],
+   "Feet": [
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 0.0
+  }
+ },
+ "1408": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Phainon",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1409": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Hyacine",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "HP%",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1410": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Hysilens",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Physical DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 1.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1412": {
+  "element": "Wind",
+  "flatMainstatBoost": "ATK",
+  "name": "Cerydra",
+  "parts": {
+   "Body": [
+    "ATK%"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.75,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1413": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Evernight",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "HP%"
+   ],
+   "Feet": [
+    "HP%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "HP%"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 0.0
+  }
+ },
+ "1414": {
+  "element": "Physical",
+  "flatMainstatBoost": "ATK",
+  "name": "Dan Heng \u2022 Permansor Terrae",
+  "parts": {
+   "Body": [
+    "ATK%",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "ATK%"
+   ],
+   "PlanarSphere": [
+    "ATK%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 1.0,
+   "ATK%": 1.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1415": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Cyrene",
+  "parts": {
+   "Body": [
+    "HP%",
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "Ice DMG Boost"
+   ]
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1501": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Sparxie",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Fire DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1502": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Yao Guang",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1503": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Pearl",
+  "parts": {
+   "Body": [
+    "DEF%",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "SPD",
+    "DEF%"
+   ],
+   "LinkRope": [
+    "Energy Regeneration Rate",
+    "DEF%"
+   ],
+   "PlanarSphere": [
+    "DEF%"
+   ]
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 1.0,
+   "DEF%": 1.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1504": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Ashveil",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Hunt",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1505": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Evanescia",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.25,
+   "ATK%": 0.25,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1506": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Silver Wolf LV.999",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [],
+   "PlanarSphere": []
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1507": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Mortenax Blade",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "CRIT Rate",
+    "HP%"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Fire DMG Boost",
+    "HP%"
+   ]
+  },
+  "path": "Nihility",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1508": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Rin Tohsaka",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Quantum DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1509": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Gilgamesh",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Lightning DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1510": {
+  "element": "Fire",
+  "flatMainstatBoost": null,
+  "name": "Himeko \u2022 Nova",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "ATK%"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Fire DMG Boost"
+   ]
+  },
+  "path": "Erudition",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 0.0
+  }
+ },
+ "1511": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Aeon \u2605 Aha",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [],
+   "PlanarSphere": []
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "1512": {
+  "element": "Wind",
+  "flatMainstatBoost": null,
+  "name": "Robin \u2022 Summeretto",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "HP%"
+   ],
+   "Feet": [
+    "SPD",
+    "HP%"
+   ],
+   "LinkRope": [
+    "HP%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "HP%",
+    "Wind DMG Boost"
+   ]
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 1.0,
+   "HP%": 1.0,
+   "SPD": 1.0
+  }
+ },
+ "1513": {
+  "element": "Quantum",
+  "flatMainstatBoost": null,
+  "name": "Aventurine \u2022 Waveflair",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.25,
+   "ATK%": 0.25,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8001": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8002": {
+  "element": "Physical",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG",
+    "Effect Hit Rate"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Break Effect"
+   ],
+   "PlanarSphere": [
+    "ATK%",
+    "Physical DMG Boost"
+   ]
+  },
+  "path": "Destruction",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.75,
+   "ATK%": 0.75,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8003": {
+  "element": "Fire",
+  "flatMainstatBoost": "DEF",
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "DEF%"
+   ],
+   "Feet": [
+    "DEF%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "DEF%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "DEF%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 1.0,
+   "DEF%": 1.0,
+   "Effect Hit Rate": 0.75,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8004": {
+  "element": "Fire",
+  "flatMainstatBoost": "DEF",
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "DEF%"
+   ],
+   "Feet": [
+    "DEF%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "DEF%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "DEF%"
+   ]
+  },
+  "path": "Preservation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 1.0,
+   "DEF%": 1.0,
+   "Effect Hit Rate": 0.75,
+   "Effect RES": 0.5,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8005": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8006": {
+  "element": "Imaginary",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [],
+   "Feet": [
+    "SPD"
+   ],
+   "LinkRope": [
+    "Break Effect",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Harmony",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 1.0,
+   "CRIT DMG": 0.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8007": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8008": {
+  "element": "Ice",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "CRIT DMG",
+    "Outgoing Healing Boost"
+   ],
+   "Feet": [
+    "ATK%",
+    "SPD"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": []
+  },
+  "path": "Remembrance",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.0,
+   "ATK%": 0.0,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 0.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.25,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8009": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Lightning DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.25,
+   "ATK%": 0.25,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ },
+ "8010": {
+  "element": "Lightning",
+  "flatMainstatBoost": null,
+  "name": "Trailblazer",
+  "parts": {
+   "Body": [
+    "CRIT Rate",
+    "CRIT DMG"
+   ],
+   "Feet": [
+    "SPD",
+    "ATK%"
+   ],
+   "LinkRope": [
+    "ATK%",
+    "Energy Regeneration Rate"
+   ],
+   "PlanarSphere": [
+    "Lightning DMG Boost",
+    "ATK%"
+   ]
+  },
+  "path": "Elation",
+  "rarity": 5,
+  "released": true,
+  "weights": {
+   "ATK": 0.25,
+   "ATK%": 0.25,
+   "Break Effect": 0.0,
+   "CRIT DMG": 1.0,
+   "CRIT Rate": 1.0,
+   "DEF": 0.0,
+   "DEF%": 0.0,
+   "Effect Hit Rate": 0.0,
+   "Effect RES": 0.0,
+   "HP": 0.0,
+   "HP%": 0.0,
+   "SPD": 1.0
+  }
+ }
+}

@@ -1,0 +1,1028 @@
+{
+ "pieces": {
+  "Passerby's Rejuvenated Wooden Hairstick": {
+   "set": "Passerby of Wandering Cloud",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Passerby's Roaming Dragon Bracer": {
+   "set": "Passerby of Wandering Cloud",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Passerby's Ragged Embroidered Coat": {
+   "set": "Passerby of Wandering Cloud",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Passerby's Stygian Hiking Boots": {
+   "set": "Passerby of Wandering Cloud",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Musketeer's Wild Wheat Felt Hat": {
+   "set": "Musketeer of Wild Wheat",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Musketeer's Coarse Leather Gloves": {
+   "set": "Musketeer of Wild Wheat",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Musketeer's Wind-Hunting Shawl": {
+   "set": "Musketeer of Wild Wheat",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Musketeer's Rivets Riding Boots": {
+   "set": "Musketeer of Wild Wheat",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Knight's Forgiving Casque": {
+   "set": "Knight of Purity Palace",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Knight's Silent Oath Ring": {
+   "set": "Knight of Purity Palace",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Knight's Solemn Breastplate": {
+   "set": "Knight of Purity Palace",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Knight's Iron Boots of Order": {
+   "set": "Knight of Purity Palace",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Hunter's Artaius Hood": {
+   "set": "Hunter of Glacial Forest",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Hunter's Lizard Gloves": {
+   "set": "Hunter of Glacial Forest",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Hunter's Ice Dragon Cloak": {
+   "set": "Hunter of Glacial Forest",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Hunter's Soft Elkskin Boots": {
+   "set": "Hunter of Glacial Forest",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Champion's Headgear": {
+   "set": "Champion of Streetwise Boxing",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Champion's Heavy Gloves": {
+   "set": "Champion of Streetwise Boxing",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Champion's Chest Guard": {
+   "set": "Champion of Streetwise Boxing",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Champion's Fleetfoot Boots": {
+   "set": "Champion of Streetwise Boxing",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Guard's Cast Iron Helmet": {
+   "set": "Guard of Wuthering Snow",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Guard's Shining Gauntlets": {
+   "set": "Guard of Wuthering Snow",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Guard's Uniform of Old": {
+   "set": "Guard of Wuthering Snow",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Guard's Silver Greaves": {
+   "set": "Guard of Wuthering Snow",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Firesmith's Obsidian Goggles": {
+   "set": "Firesmith of Lava-Forging",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Firesmith's Ring of Flame-Mastery": {
+   "set": "Firesmith of Lava-Forging",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Firesmith's Fireproof Apron": {
+   "set": "Firesmith of Lava-Forging",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Firesmith's Alloy Leg": {
+   "set": "Firesmith of Lava-Forging",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Genius's Ultraremote Sensing Visor": {
+   "set": "Genius of Brilliant Stars",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Genius's Frequency Catcher": {
+   "set": "Genius of Brilliant Stars",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Genius's Metafield Suit": {
+   "set": "Genius of Brilliant Stars",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Genius's Gravity Walker": {
+   "set": "Genius of Brilliant Stars",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Band's Polarized Sunglasses": {
+   "set": "Band of Sizzling Thunder",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Band's Touring Bracelet": {
+   "set": "Band of Sizzling Thunder",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Band's Leather Jacket With Studs": {
+   "set": "Band of Sizzling Thunder",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Band's Ankle Boots With Rivets": {
+   "set": "Band of Sizzling Thunder",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Eagle's Beaked Helmet": {
+   "set": "Eagle of Twilight Line",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Eagle's Soaring Ring": {
+   "set": "Eagle of Twilight Line",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Eagle's Winged Suit Harness": {
+   "set": "Eagle of Twilight Line",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Eagle's Quilted Puttees": {
+   "set": "Eagle of Twilight Line",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Thief's Myriad-Faced Mask": {
+   "set": "Thief of Shooting Meteor",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Thief's Gloves With Prints": {
+   "set": "Thief of Shooting Meteor",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Thief's Steel Grappling Hook": {
+   "set": "Thief of Shooting Meteor",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Thief's Meteor Boots": {
+   "set": "Thief of Shooting Meteor",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Wastelander's Breathing Mask": {
+   "set": "Wastelander of Banditry Desert",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Wastelander's Desert Terminal": {
+   "set": "Wastelander of Banditry Desert",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Wastelander's Friar Robe": {
+   "set": "Wastelander of Banditry Desert",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Wastelander's Powered Greaves": {
+   "set": "Wastelander of Banditry Desert",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Disciple's Prosthetic Eye": {
+   "set": "Longevous Disciple",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Disciple's Ingenium Hand": {
+   "set": "Longevous Disciple",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Disciple's Dewy Feather Garb": {
+   "set": "Longevous Disciple",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Disciple's Celestial Silk Sandals": {
+   "set": "Longevous Disciple",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Messenger's Holovisor": {
+   "set": "Messenger Traversing Hackerspace",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Messenger's Transformative Arm": {
+   "set": "Messenger Traversing Hackerspace",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Messenger's Secret Satchel": {
+   "set": "Messenger Traversing Hackerspace",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Messenger's Par-kool Sneakers": {
+   "set": "Messenger Traversing Hackerspace",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Grand Duke's Crown of Netherflame": {
+   "set": "The Ashblazing Grand Duke",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Grand Duke's Gloves of Fieryfur": {
+   "set": "The Ashblazing Grand Duke",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Grand Duke's Robe of Grace": {
+   "set": "The Ashblazing Grand Duke",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Grand Duke's Ceremonial Boots": {
+   "set": "The Ashblazing Grand Duke",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Prisoner's Sealed Muzzle": {
+   "set": "Prisoner in Deep Confinement",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Prisoner's Leadstone Shackles": {
+   "set": "Prisoner in Deep Confinement",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Prisoner's Repressive Straitjacket": {
+   "set": "Prisoner in Deep Confinement",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Prisoner's Restrictive Fetters": {
+   "set": "Prisoner in Deep Confinement",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Pioneer's Heatproof Shell": {
+   "set": "Pioneer Diver of Dead Waters",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Pioneer's Lacuna Compass": {
+   "set": "Pioneer Diver of Dead Waters",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Pioneer's Sealed Lead Apron": {
+   "set": "Pioneer Diver of Dead Waters",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Pioneer's Starfaring Anchor": {
+   "set": "Pioneer Diver of Dead Waters",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Watchmaker's Telescoping Lens": {
+   "set": "Watchmaker, Master of Dream Machinations",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Watchmaker's Fortuitous Wristwatch": {
+   "set": "Watchmaker, Master of Dream Machinations",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Watchmaker's Illusory Formal Suit": {
+   "set": "Watchmaker, Master of Dream Machinations",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Watchmaker's Dream-Concealing Dress Shoes": {
+   "set": "Watchmaker, Master of Dream Machinations",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Iron Cavalry's Homing Helm": {
+   "set": "Iron Cavalry Against the Scourge",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Iron Cavalry's Crushing Wristguard": {
+   "set": "Iron Cavalry Against the Scourge",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Iron Cavalry's Silvery Armor": {
+   "set": "Iron Cavalry Against the Scourge",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Iron Cavalry's Skywalk Greaves": {
+   "set": "Iron Cavalry Against the Scourge",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Valorous Mask of Northern Skies": {
+   "set": "The Wind-Soaring Valorous",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Valorous Bracelet of Grappling Hooks": {
+   "set": "The Wind-Soaring Valorous",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Valorous Plate of Soaring Flight": {
+   "set": "The Wind-Soaring Valorous",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Valorous Greaves of Pursuing Hunt": {
+   "set": "The Wind-Soaring Valorous",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Sacerdos' Melodic Earrings": {
+   "set": "Sacerdos' Relived Ordeal",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Sacerdos' Welcoming Gloves": {
+   "set": "Sacerdos' Relived Ordeal",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Sacerdos' Ceremonial Garb": {
+   "set": "Sacerdos' Relived Ordeal",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Sacerdos' Arduous Boots": {
+   "set": "Sacerdos' Relived Ordeal",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Scholar's Silver-Rimmed Monocle": {
+   "set": "Scholar Lost in Erudition",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Scholar's Auxiliary Knuckle": {
+   "set": "Scholar Lost in Erudition",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Scholar's Tweed Jacket": {
+   "set": "Scholar Lost in Erudition",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Scholar's Felt Snowboots": {
+   "set": "Scholar Lost in Erudition",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Hero's Wreath of Championship": {
+   "set": "Hero of Triumphant Song",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Hero's Gilded Bracers": {
+   "set": "Hero of Triumphant Song",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Hero's Gallant Golden Armor": {
+   "set": "Hero of Triumphant Song",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Hero's Firechasing Shinguard": {
+   "set": "Hero of Triumphant Song",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Poet's Dill Wreath": {
+   "set": "Poet of Mourning Collapse",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Poet's Gilded Bracelet": {
+   "set": "Poet of Mourning Collapse",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Poet's Star-Studded Skirt": {
+   "set": "Poet of Mourning Collapse",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Poet's Silver-Studded Shoes": {
+   "set": "Poet of Mourning Collapse",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Warrior Goddess's Winged Helm": {
+   "set": "Warrior Goddess of Sun and Thunder",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Warrior Goddess's Cavalry Gauntlets": {
+   "set": "Warrior Goddess of Sun and Thunder",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Warrior Goddess's Dawn Cape": {
+   "set": "Warrior Goddess of Sun and Thunder",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Warrior Goddess's Honor Spurs": {
+   "set": "Warrior Goddess of Sun and Thunder",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Captain's Navigator Hat": {
+   "set": "Wavestrider Captain",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Captain's Lightcatcher Astrolabe": {
+   "set": "Wavestrider Captain",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Captain's Wind Mantle": {
+   "set": "Wavestrider Captain",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Captain's Tidal Boots": {
+   "set": "Wavestrider Captain",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Deliverer's Hood": {
+   "set": "World-Remaking Deliverer",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Deliverer's Sword Gauntlet": {
+   "set": "World-Remaking Deliverer",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Deliverer's Robe of Legacy": {
+   "set": "World-Remaking Deliverer",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Deliverer's Boots of Pioneering": {
+   "set": "World-Remaking Deliverer",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Recluse's Wide-Brimmed Fedora": {
+   "set": "Self-Enshrouded Recluse",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Recluse's Refined Timepiece": {
+   "set": "Self-Enshrouded Recluse",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Recluse's Camel-Colored Coat": {
+   "set": "Self-Enshrouded Recluse",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Recluse's Soft Suede Boots": {
+   "set": "Self-Enshrouded Recluse",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Magical Girl's Shining Medal": {
+   "set": "Ever-Glorious Magical Girl",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Magical Girl's Protective Gloves": {
+   "set": "Ever-Glorious Magical Girl",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Magical Girl's Everdance Battle Skirt": {
+   "set": "Ever-Glorious Magical Girl",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Magical Girl's Contract Boots": {
+   "set": "Ever-Glorious Magical Girl",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Diviner's Extrapolation Jade Abacus": {
+   "set": "Diviner of Distant Reach",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Diviner's Ingenium Prosthetic Hand": {
+   "set": "Diviner of Distant Reach",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Diviner's Astral Robe": {
+   "set": "Diviner of Distant Reach",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Diviner's Cloud-Soaring Boots": {
+   "set": "Diviner of Distant Reach",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Navigator's Deep Space Mirror": {
+   "set": "As Navigator Isee Sees It",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Navigator's Game Die": {
+   "set": "As Navigator Isee Sees It",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Navigator's Astral Chart Uniform": {
+   "set": "As Navigator Isee Sees It",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Navigator's Everstride Boots": {
+   "set": "As Navigator Isee Sees It",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Smith's Fire Beast Mask": {
+   "set": "Divine-Querying Master Smith",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Smith's Damascus Steel Gauntlets": {
+   "set": "Divine-Querying Master Smith",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Smith's Fireproof Garment": {
+   "set": "Divine-Querying Master Smith",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Smith's Unbridled Boots": {
+   "set": "Divine-Querying Master Smith",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Actor's Weeping Masque": {
+   "set": "Dreamlit Actor",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Actor's Vibrant Handfan": {
+   "set": "Dreamlit Actor",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Actor's Jester Garb": {
+   "set": "Dreamlit Actor",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Actor's Crescent Dance Boots": {
+   "set": "Dreamlit Actor",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Heretic's Cranial Apparatus": {
+   "set": "The Edacious Heretic",
+   "slot": "Head",
+   "rarity": 5
+  },
+  "Heretic's Injection Gloves": {
+   "set": "The Edacious Heretic",
+   "slot": "Hands",
+   "rarity": 5
+  },
+  "Heretic's Straitjacket of Reason": {
+   "set": "The Edacious Heretic",
+   "slot": "Body",
+   "rarity": 5
+  },
+  "Heretic's Ravenous Ankle-Boots": {
+   "set": "The Edacious Heretic",
+   "slot": "Feet",
+   "rarity": 5
+  },
+  "Herta's Space Station": {
+   "set": "Space Sealing Station",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Herta's Wandering Trek": {
+   "set": "Space Sealing Station",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "The Xianzhou Luofu's Celestial Ark": {
+   "set": "Fleet of the Ageless",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "The Xianzhou Luofu's Ambrosial Arbor Vines": {
+   "set": "Fleet of the Ageless",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "The IPC's Mega HQ": {
+   "set": "Pan-Cosmic Commercial Enterprise",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "The IPC's Trade Route": {
+   "set": "Pan-Cosmic Commercial Enterprise",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Belobog's Fortress of Preservation": {
+   "set": "Belobog of the Architects",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Belobog's Iron Defense": {
+   "set": "Belobog of the Architects",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Planet Screwllum's Mechanical Sun": {
+   "set": "Celestial Differentiator",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Planet Screwllum's Ring System": {
+   "set": "Celestial Differentiator",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Salsotto's Moving City": {
+   "set": "Inert Salsotto",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Salsotto's Terminator Line": {
+   "set": "Inert Salsotto",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Talia's Nailscrap Town": {
+   "set": "Talia: Kingdom of Banditry",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Talia's Exposed Electric Wire": {
+   "set": "Talia: Kingdom of Banditry",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Vonwacq's Island of Birth": {
+   "set": "Sprightly Vonwacq",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Vonwacq's Islandic Coast": {
+   "set": "Sprightly Vonwacq",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Taikiyan Laser Stadium": {
+   "set": "Rutilant Arena",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Taikiyan's Arclight Race Track": {
+   "set": "Rutilant Arena",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Insumousu's Whalefall Ship": {
+   "set": "Broken Keel",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Insumousu's Frayed Hawser": {
+   "set": "Broken Keel",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Glamoth's Iron Cavalry Regiment": {
+   "set": "Firmament Frontline: Glamoth",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Glamoth's Silent Tombstone": {
+   "set": "Firmament Frontline: Glamoth",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Penacony's Grand Hotel": {
+   "set": "Penacony, Land of the Dreams",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Penacony's Dream-Seeking Tracks": {
+   "set": "Penacony, Land of the Dreams",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Sigonia's Gaiathra Berth": {
+   "set": "Sigonia, the Unclaimed Desolation",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Sigonia's Knot of Cyclicality": {
+   "set": "Sigonia, the Unclaimed Desolation",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Izumo's Magatsu no Morokami": {
+   "set": "Izumo Gensei and Takama Divine Realm",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Izumo's Blades of Origin and End": {
+   "set": "Izumo Gensei and Takama Divine Realm",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Duran's Tent of Golden Sky": {
+   "set": "Duran, Dynasty of Running Wolves",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Duran's Mechabeast Bridle": {
+   "set": "Duran, Dynasty of Running Wolves",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Forge's Lotus Lantern Wick": {
+   "set": "Forge of the Kalpagni Lantern",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Forge's Heavenly Flamewheel Silk": {
+   "set": "Forge of the Kalpagni Lantern",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Lushaka's Waterscape": {
+   "set": "Lushaka, the Sunken Seas",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Lushaka's Twinlanes": {
+   "set": "Lushaka, the Sunken Seas",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "BananAmusement Park's BananAxis Plaza": {
+   "set": "The Wondrous BananAmusement Park",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "BananAmusement Park's Memetic Cables": {
+   "set": "The Wondrous BananAmusement Park",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Aidonia's Deceased Gravestones": {
+   "set": "Bone Collection's Serene Demesne",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Aidonia's Deathward Bone Chains": {
+   "set": "Bone Collection's Serene Demesne",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Grove of Epiphany's Pondering Colossus": {
+   "set": "Giant Tree of Rapt Brooding",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Grove of Epiphany's Interwoven Veins": {
+   "set": "Giant Tree of Rapt Brooding",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Membrance Maze's Serene Treehouse": {
+   "set": "Arcadia of Woven Dreams",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Membrance Maze's Wishing Whistle": {
+   "set": "Arcadia of Woven Dreams",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Warbling Shores' Blazing Beacon": {
+   "set": "Revelry by the Sea",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Warbling Shores' Cantillation Trail": {
+   "set": "Revelry by the Sea",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Last West Wind of Amphoreus": {
+   "set": "Amphoreus, The Eternal Land",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Eternal Verses of Amphoreus": {
+   "set": "Amphoreus, The Eternal Land",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Livestream's Protean Vistas": {
+   "set": "Tengoku@Livestream",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Livestream's Chatter Banter": {
+   "set": "Tengoku@Livestream",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Punklorde's Rainbow City": {
+   "set": "Punklorde Stage Zero",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Punklorde's Data Deluge": {
+   "set": "Punklorde Stage Zero",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Astropolis Media Headquarters": {
+   "set": "City of Converging Stars",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Astropolis Employee Credentials": {
+   "set": "City of Converging Stars",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Stranded Express at the Anchorage": {
+   "set": "Fallen Star Anchorage",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Silver Rails of the Anchorage": {
+   "set": "Fallen Star Anchorage",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  },
+  "Central Synapse of the Life Sciences Institute": {
+   "set": "Cosmic Life Sciences Institute",
+   "slot": "LinkRope",
+   "rarity": 5
+  },
+  "Peripheral Conduits of the Life Sciences Institute": {
+   "set": "Cosmic Life Sciences Institute",
+   "slot": "PlanarSphere",
+   "rarity": 5
+  }
+ },
+ "sets": [
+  "Amphoreus, The Eternal Land",
+  "Arcadia of Woven Dreams",
+  "As Navigator Isee Sees It",
+  "Band of Sizzling Thunder",
+  "Belobog of the Architects",
+  "Bone Collection's Serene Demesne",
+  "Broken Keel",
+  "Celestial Differentiator",
+  "Champion of Streetwise Boxing",
+  "City of Converging Stars",
+  "Cosmic Life Sciences Institute",
+  "Divine-Querying Master Smith",
+  "Diviner of Distant Reach",
+  "Dreamlit Actor",
+  "Duran, Dynasty of Running Wolves",
+  "Eagle of Twilight Line",
+  "Ever-Glorious Magical Girl",
+  "Fallen Star Anchorage",
+  "Firesmith of Lava-Forging",
+  "Firmament Frontline: Glamoth",
+  "Fleet of the Ageless",
+  "Forge of the Kalpagni Lantern",
+  "Genius of Brilliant Stars",
+  "Giant Tree of Rapt Brooding",
+  "Guard of Wuthering Snow",
+  "Hero of Triumphant Song",
+  "Hunter of Glacial Forest",
+  "Inert Salsotto",
+  "Iron Cavalry Against the Scourge",
+  "Izumo Gensei and Takama Divine Realm",
+  "Knight of Purity Palace",
+  "Longevous Disciple",
+  "Lushaka, the Sunken Seas",
+  "Messenger Traversing Hackerspace",
+  "Musketeer of Wild Wheat",
+  "Pan-Cosmic Commercial Enterprise",
+  "Passerby of Wandering Cloud",
+  "Penacony, Land of the Dreams",
+  "Pioneer Diver of Dead Waters",
+  "Poet of Mourning Collapse",
+  "Prisoner in Deep Confinement",
+  "Punklorde Stage Zero",
+  "Revelry by the Sea",
+  "Rutilant Arena",
+  "Sacerdos' Relived Ordeal",
+  "Scholar Lost in Erudition",
+  "Self-Enshrouded Recluse",
+  "Sigonia, the Unclaimed Desolation",
+  "Space Sealing Station",
+  "Sprightly Vonwacq",
+  "Talia: Kingdom of Banditry",
+  "Tengoku@Livestream",
+  "The Ashblazing Grand Duke",
+  "The Edacious Heretic",
+  "The Wind-Soaring Valorous",
+  "The Wondrous BananAmusement Park",
+  "Thief of Shooting Meteor",
+  "Warrior Goddess of Sun and Thunder",
+  "Wastelander of Banditry Desert",
+  "Watchmaker, Master of Dream Machinations",
+  "Wavestrider Captain",
+  "World-Remaking Deliverer"
+ ]
+}

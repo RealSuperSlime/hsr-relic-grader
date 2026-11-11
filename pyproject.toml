@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hsr-relic-grader"
+version = "1.0.0"
+description = "Grade Honkai: Star Rail relics the way Fribbels' HSR Optimizer does - from a screenshot, or straight off a player's showcase"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
+authors = [{ name = "RealSuperSlime" }]
+keywords = ["honkai-star-rail", "hsr", "relic", "scoring", "ocr", "fribbels"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+    "Pillow>=10.0",
+    "numpy>=1.24",
+]
+
+[project.scripts]
+hsr-relic-grader-tesseract = "relic_grades.tesseract_setup:main"
+
+[project.urls]
+Homepage = "https://github.com/RealSuperSlime/hsr-relic-grader"
+Source = "https://github.com/RealSuperSlime/hsr-relic-grader"
+
+[tool.setuptools]
+packages = ["relic_grades"]
+
+# The scoring tables ship inside the package, so a pip install carries them.
+[tool.setuptools.package-data]
+relic_grades = ["data/*.json"]

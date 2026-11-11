@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# Secrets. These hold your own credentials/IDs - never commit or upload them.
+# Their .example twins are the shareable versions.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# The Discord bot is its own repository now: RealSuperSlime/hsr-relic-grader-bot
+discord_bot/
+
+# ---------------------------------------------------------------------------
+# Local environment and caches
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Bundled Tesseract is ~240 MB of binaries - not something to upload.
+# The README explains how to fetch it.
+vendor/
+
+# ---------------------------------------------------------------------------
+# Throwaway scripts used while building the OCR pipeline. Kept locally, not
+# published - the real tooling (extract_*.py, install_tesseract.py,
+# robust_check.py, create_shortcuts.py) is tracked above.
+# ---------------------------------------------------------------------------
+tools/dbg_*.py
+tools/dump*.py
+tools/test_ocr.py
+
+# ---------------------------------------------------------------------------
+# Local scratch
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
