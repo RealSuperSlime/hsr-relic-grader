@@ -103,6 +103,7 @@ def fetch(uid: str, use_cache: bool = True) -> dict:
     hit = _FETCH_CACHE.get(uid)
     if use_cache and hit and time.time() - hit[0] < CACHE_SECONDS:
         return hit[1]
+    uid = _check_uid(uid)
     req = urllib.request.Request(API.format(uid=uid),
                                  headers={'User-Agent': USER_AGENT, 'Accept': 'application/json'})
     try:
@@ -205,6 +206,14 @@ def grade_character(entry: dict) -> dict:
     return {'id': avatar_id, 'name': name, 'level': entry.get('level'),
             'eidolon': entry.get('rank'), 'known': known,
             'relics': relics, 'total': total, 'rating': rating}
+
+
+def _check_uid(uid: str) -> str:
+    """A UID goes straight into a request URL, so it is validated, not trusted."""
+    uid = str(uid).strip()
+    if not uid.isdigit() or not 6 <= len(uid) <= 12:
+        raise ShowcaseError('A UID is digits only - e.g. 101000000.')
+    return uid
 
 
 def showcase(uid: str, character: str | None = None, limit: int = 10) -> dict:
