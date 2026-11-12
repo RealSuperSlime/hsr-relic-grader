@@ -35,6 +35,14 @@ Because these tables are AGPL-3.0, this repository as a whole is licensed
 **AGPL-3.0-or-later** (see `LICENSE`). That is the only reason for the license
 choice: the MIT parts would happily live under anything.
 
+## Character art (V2 UI only)
+
+The V2 layout shows the character's key art, taken from the optimizer's
+`public/assets/image/character_preview/<id>.webp`. **That artwork is HoYoverse's and
+is deliberately not in this repository** — `ui/static/art/` is git-ignored, and
+`tools/fetch_character_art.py` pulls a copy onto your own machine for local use.
+The per-character ids are the same ones the optimizer uses.
+
 ## Honkai: Star Rail
 
 Game names, terms and screenshots belong to HoYoverse / miHoYo. This is an

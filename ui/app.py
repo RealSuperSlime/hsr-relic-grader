@@ -1,8 +1,12 @@
 """Local web UI for the HSR relic grader.
 
-    python ui/app.py                 # starts the server and opens your browser
+    python ui/app.py                 # plain UI, opens your browser
+    python ui/app.py --ui v2         # V2: the character's art behind the grader
     python ui/app.py --port 8800     # pick a port
     python ui/app.py --no-browser    # just serve
+
+Both layouts are always reachable: ``/`` serves the chosen one, ``/v1/`` and
+``/v2/`` always serve theirs.
 
 Only stdlib + the packages the grader already needs (Pillow, numpy) - no server
 framework. Everything runs on 127.0.0.1; nothing leaves the machine.
@@ -17,21 +21,33 @@ import os
 import socket
 import sys
 import threading
+import urllib.error
+import urllib.request
 import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
-from relic_grades.characters import characters  # noqa: E402
+from relic_grades.characters import characters, find_character  # noqa: E402
 from relic_grades.fribbels import RATING_TIERS  # noqa: E402
 from relic_grades.grade import grade_image, grade_payload  # noqa: E402
 
 STATIC = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
+ART = os.path.join(STATIC, 'art')
 CONTENT_TYPES = {'.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
                  '.js': 'application/javascript; charset=utf-8', '.ico': 'image/x-icon',
-                 '.png': 'image/png', '.svg': 'image/svg+xml'}
+                 '.png': 'image/png', '.svg': 'image/svg+xml',
+                 '.webp': 'image/webp'}
+
+# V2 shows one WebP per character. It is HoYoverse's art, so it is not shipped in
+# the repo - tools/fetch_character_art.py fills this folder, and a request for a
+# character we do not have yet fetches just that one file.
+ART_URL = ('https://raw.githubusercontent.com/fribbels/hsr-optimizer/main/'
+           'public/assets/image/character_preview/{id}.webp')
+DEFAULT_UI = 'v1'
+INDEX_FOR = {'v1': 'index.html', 'v2': 'v2/index.html'}
 
 
 # --------------------------------------------------------------------------- #
@@ -45,10 +61,49 @@ def character_list() -> list[dict]:
         if name.lower() in seen:
             continue
         seen.add(name.lower())
-        out.append({'id': cid, 'name': name, 'element': c.get('element'),
-                    'path': c.get('path'), 'rarity': c.get('rarity')})
+        entry = {'id': cid, 'name': name, 'element': c.get('element'),
+                 'path': c.get('path'), 'rarity': c.get('rarity')}
+        if os.path.isfile(os.path.join(ART, f'{cid}.webp')):
+            entry['art'] = f'/art/{cid}.webp'
+        out.append(entry)
     out.sort(key=lambda c: (c['name'].lower(), c['id']))
     return out
+
+
+# --------------------------------------------------------------------------- #
+# character art (V2)
+# --------------------------------------------------------------------------- #
+def art_path(cid: str, allow_fetch: bool = True) -> str | None:
+    """Local path to a character's art, downloading just that file if needed."""
+    path = os.path.join(ART, f'{cid}.webp')
+    if os.path.isfile(path):
+        return path
+    if not allow_fetch:
+        return None
+    req = urllib.request.Request(ART_URL.format(id=cid),
+                                headers={'User-Agent': 'hsr-relic-grader-ui'})
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            blob = r.read()
+    except (urllib.error.URLError, OSError, TimeoutError):
+        return None
+    if not blob.startswith(b'RIFF') or b'WEBP' not in blob[:16]:
+        return None
+    os.makedirs(ART, exist_ok=True)
+    with open(path, 'wb') as f:
+        f.write(blob)
+    return path
+
+
+def resolve_character(query: str) -> dict | None:
+    """Accept an id, or a name (fuzzy, same resolver the grader uses)."""
+    query = (query or '').strip()
+    if not query:
+        return None
+    try:
+        return find_character(query)
+    except ValueError:
+        return None
 
 
 def handle_score(body: dict) -> dict:
@@ -108,15 +163,38 @@ class Handler(BaseHTTPRequestHandler):
 
     # ---- routes ----
     def do_GET(self):
-        route = urlparse(self.path).path
+        parsed = urlparse(self.path)
+        route = parsed.path
         if route == '/api/characters':
             self._json({'characters': character_list(),
                         'tiers': [t[1] for t in RATING_TIERS]})
             return
+        if route == '/api/art':
+            self._art(parse_qs(parsed.query))
+            return
         if route in ('/', '/index.html'):
-            self._static('index.html')
+            self._static(INDEX_FOR[DEFAULT_UI])
+            return
+        if route.rstrip('/') in ('/v1', '/v2'):
+            self._static(INDEX_FOR[route.rstrip('/')[1:]])
             return
         self._static(route)
+
+    def _art(self, params: dict) -> None:
+        """Which art file belongs to a character - fetching it once if needed."""
+        query = (params.get('id') or params.get('character') or [''])[0]
+        found = resolve_character(query)
+        if not found:
+            self._json({'error': 'unknown character', 'hint': 'pick one from the list'}, 404)
+            return
+        path = art_path(found['id'])
+        if not path:
+            self._json({'error': 'no art for this character',
+                        'hint': 'run  python tools/fetch_character_art.py',
+                        'id': found['id'], 'name': found['name']}, 404)
+            return
+        self._json({'id': found['id'], 'name': found['name'],
+                    'url': f"/art/{found['id']}.webp"})
 
     def do_POST(self):
         route = urlparse(self.path).path
@@ -167,16 +245,25 @@ def open_browser(url: str) -> None:
 
 
 def main() -> None:
+    global DEFAULT_UI
     ap = argparse.ArgumentParser(description='HSR relic grader UI')
     ap.add_argument('--port', type=int, default=8770)
     ap.add_argument('--no-browser', action='store_true')
+    ap.add_argument('--ui', choices=('v1', 'v2'), default='v1',
+                    help='which layout / serves (v2 = character art background)')
     args = ap.parse_args()
+    DEFAULT_UI = args.ui
 
     port = free_port(args.port)
     httpd = ThreadingHTTPServer(('127.0.0.1', port), Handler)
     url = f'http://127.0.0.1:{port}/'
-    print(f'HSR relic grader UI running at {url}')
+    art = len([f for f in os.listdir(ART) if f.endswith('.webp')]) if os.path.isdir(ART) else 0
+    print(f'HSR relic grader UI running at {url}   [{DEFAULT_UI.upper()}]')
     print(f'  {len(character_list())} characters loaded.  Ctrl-C to stop.')
+    if DEFAULT_UI == 'v2':
+        print(f'  character art on disk: {art}'
+              + ('' if art else '  (run: python tools/fetch_character_art.py)'))
+        print(f'  plain layout at {url}v1/')
     if not args.no_browser:
         threading.Timer(0.6, open_browser, args=(url,)).start()
     try:

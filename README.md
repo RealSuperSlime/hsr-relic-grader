@@ -34,6 +34,7 @@ gear) - the same number the site shows next to the letter grade.
 |---|---|---|
 | **Desktop UI** (recommended) | character dropdown, paste/drop/upload a screenshot, score + breakdown | double-click **`run_ui.bat`** |
 | **Discord bot** | `!grade` → pick a character → upload the screenshot → graded embed | its own repo: **hsr-relic-grader-bot** |
+| **Desktop UI V2** | the same grader with the character's art down the right-hand side | double-click **`run_ui_v2.bat`** |
 | **CLI** | scriptable, one shot or a table vs. every character | **`run.bat`** or `main.py` (below) |
 
 Both the UI and the bot OCR and grade locally: the screenshot never leaves your PC.
@@ -48,6 +49,38 @@ letter grade, the parsed relic, and a per-substat table with the card value, the
 roll-exact value Fribbels actually scores, the character's weight and the points it
 earned. "other characters" re-scores the same relic for anyone else without re-reading
 the image.
+
+## UI V2 — the character's art behind the grader
+
+```bat
+run_ui_v2.bat                     :: or:  python ui/app.py --ui v2
+```
+
+Same grader, with the selected character's key art down the right-hand side. It
+uses the same files Fribbels' HSR Optimizer uses, keyed by the same character id:
+`public/assets/image/character_preview/<id>.webp`. Those are **static** 376x512
+WebPs — the optimizer ships no animated art (its only animated asset is a changelog
+image), so neither does this. If you want motion, the in-game animations live in
+the optimizer's `public/assets/spine/` and would need a Spine runtime.
+
+* The art cross-fades when you change character, or re-score the same relic for
+  someone else.
+* It is treated (darkened, tinted scarlet) and masked on its left edge, so it
+  dissolves into the page instead of sitting behind the panels.
+* Below ~1180px wide there is no room for the band, so it dims and moves behind
+  everything instead.
+* `/` serves whichever layout you launched; `/v1/` and `/v2/` always serve theirs.
+
+The art is **HoYoverse's, so it is not in this repo** (`ui/static/art/` is
+git-ignored). Fetch it once:
+
+```bat
+python tools\fetch_character_art.py                     :: all 109 characters, ~9 MB
+python tools\fetch_character_art.py --from <checkout>   :: or copy from a local clone
+```
+
+`run_ui_v2.bat` runs that automatically if the folder is empty, and V2 still works
+without it — you just get the scarlet background.
 
 ## CLI
 
@@ -163,8 +196,10 @@ relic_grades/paths.py            where the data tables and Tesseract are looked 
 relic_grades/tesseract_setup.py  portable Tesseract downloader
 relic_grades/data/               weights + tables (shipped inside the package)
 ui/app.py                        local web server (stdlib only) for the UI
-ui/static/                       the UI itself (html/css/js)
-tools/                           data extraction scripts
+ui/static/                       the plain UI (html/css/js)
+ui/static/v2/                    UI V2 - same logic, character art background
+ui/static/art/                   character art (git-ignored; fetch it for V2)
+tools/                           data extraction scripts + the art fetcher
 vendor/tesseract/                portable Tesseract 5.4 - not in the repo, see above
 ```
 

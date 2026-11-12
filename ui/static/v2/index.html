@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HSR Relic Grader · V2</title>
+<link rel="stylesheet" href="/v2/styles.css" />
+</head>
+<body>
+<!-- the character art sits behind everything; two layers so it cross-fades -->
+<div class="art-blur" id="artBlur"></div>
+<div class="art-layer" id="artA"></div>
+<div class="art-layer" id="artB"></div>
+<div class="art-veil"></div>
+<div class="bg-glow"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark"></span>
+    <div>
+      <h1>HSR <em>Relic Grader</em></h1>
+      <p>Fribbels-identical scoring &middot; offline OCR</p>
+    </div>
+  </div>
+  <div class="topbar-meta">
+    <span id="charCount"></span>
+    <span class="v2-tag">V2 <a href="/" title="Switch to the plain layout">plain</a></span>
+  </div>
+</header>
+
+<main class="layout">
+  <!-- ---------------- left: inputs ---------------- -->
+  <section class="panel inputs">
+    <h2>1 &middot; Character</h2>
+
+    <div class="combo" id="combo">
+      <input id="comboInput" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Search a character&hellip;" aria-expanded="false"
+             role="combobox" aria-controls="comboList" aria-autocomplete="list" />
+      <button id="comboToggle" type="button" aria-label="Toggle character list">&#9662;</button>
+      <div class="combo-list" id="comboList" role="listbox"></div>
+    </div>
+    <p class="hint" id="charHint">Pick a character &mdash; their art drops in behind.</p>
+
+    <h2>2 &middot; Relic screenshot</h2>
+
+    <div class="drop" id="drop" tabindex="0" role="button"
+         aria-label="Paste, drop or upload a relic screenshot">
+      <input type="file" id="file" accept="image/*" hidden />
+      <div class="drop-inner" id="dropInner">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5" fill="none" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 15v3.5A1.5 1.5 0 0 0 5.5 20h13a1.5 1.5 0 0 0 1.5-1.5V15"
+                fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <strong>Paste with Ctrl&nbsp;+&nbsp;V</strong>
+        <span>or drop an image here, or <u>click to browse</u></span>
+      </div>
+      <img id="thumb" alt="pasted relic screenshot" />
+    </div>
+
+    <button class="primary" id="grade" disabled>Grade relic</button>
+    <p class="hint mono" id="status">&nbsp;</p>
+  </section>
+
+  <!-- ---------------- right: results ---------------- -->
+  <section class="panel results" id="results">
+    <div class="empty" id="empty">
+      <div class="empty-ring"></div>
+      <p>Your grade appears here.</p>
+      <small>Scoring matches Fribbels HSR Optimizer exactly &mdash; same weights,<br/>
+        same formulas, same letter grades.</small>
+    </div>
+
+    <div id="resultBody" hidden>
+      <div class="score-row">
+        <div class="score-block">
+          <span class="score-caption">Score for</span>
+          <span class="score-char" id="scoreChar"></span>
+          <div class="score-value"><b id="scoreValue">0.0</b></div>
+          <span class="score-caption" id="scoreSub"></span>
+        </div>
+        <div class="grade-chip" id="gradeChip">?</div>
+      </div>
+
+      <div class="relic-card">
+        <div class="relic-head">
+          <span class="relic-piece" id="relicPiece"></span>
+          <span class="relic-set" id="relicSet"></span>
+        </div>
+        <div class="relic-chips">
+          <span class="chip" id="relicSlot"></span>
+          <span class="chip" id="relicStars"></span>
+          <span class="chip" id="relicLevel"></span>
+        </div>
+        <div class="relic-main">
+          <span>Main stat</span><b id="relicMain"></b>
+        </div>
+        <table class="subs">
+          <thead>
+            <tr><th>Substat</th><th class="num">Card</th><th class="num">Rolls</th>
+                <th class="num">Exact</th><th class="num">Weight</th><th class="num">Points</th>
+                <th class="bar-col"></th></tr>
+          </thead>
+          <tbody id="subsBody"></tbody>
+        </table>
+        <div class="breakdown">
+          <span>substat points <b id="bdRaw"></b></span>
+          <span>ideal for this slot <b id="bdIdeal"></b></span>
+          <span>other characters <select id="compare"></select></span>
+        </div>
+      </div>
+
+      <ul class="warnings" id="warnings"></ul>
+
+      <details class="debug">
+        <summary>OCR reading per row</summary>
+        <pre id="debugPre"></pre>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Score is Fribbels&rsquo; relic potential value (0&ndash;100+), not a percentage of
+    finished gear. Everything runs locally.</span>
+  <span class="art-credit" id="artCredit">Character art is HoYoverse&rsquo;s, fetched locally
+    &middot; <a href="/" style="color:inherit">plain layout</a></span>
+</footer>
+
+<script src="/app.js"></script>
+<script src="/v2/art.js"></script>
+</body>
+</html>

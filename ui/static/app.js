@@ -81,6 +81,11 @@
     activeIndex = -1;
   }
 
+  function announceCharacter(id, name) {
+    // V2 swaps the background art on this; the plain UI ignores it.
+    window.dispatchEvent(new CustomEvent('relicgrader:character', { detail: { id, name } }));
+  }
+
   function choose(c) {
     selected = { id: c.id, name: c.name };
     comboInput.value = c.name;
@@ -88,6 +93,7 @@
     charHint.textContent = `Scoring as ${c.name}${c.element ? ' · ' + c.element : ''}`;
     charHint.classList.remove('error');
     refreshButton();
+    announceCharacter(c.id, c.name);
     if (lastRelic) runRescore();
   }
 
@@ -237,6 +243,7 @@
     $('resultBody').hidden = false;
 
     const s = data.score;
+    announceCharacter(data.character.id, data.character.name);
     $('scoreChar').textContent = data.character.name;
     $('scoreValue').textContent = s.value.toFixed(1);
     $('scoreSub').textContent = s.correctMain ? 'main stat matches the character' : 'main stat is off-meta';
@@ -334,6 +341,12 @@
       CHARACTERS = data.characters || [];
       $('charCount').textContent = `${CHARACTERS.length} characters \u00b7 grades F \u2192 AEON`;
       setStatus('Ready.');
+      // V2 shows the first character's art so the page is never empty.
+      const first = CHARACTERS[0];
+      if (first) {
+        window.dispatchEvent(new CustomEvent('relicgrader:ready',
+          { detail: { id: first.id, name: first.name } }));
+      }
     })
     .catch(() => setStatus('Could not load character list.', true));
 })();

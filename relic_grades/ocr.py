@@ -66,6 +66,23 @@ def _tess_env(tess: str) -> dict:
     return env
 
 
+_TESS_PROBLEMS: list[str] = []
+
+
+def _note_tesseract_problem(out, cmd) -> None:
+    """Record (deduped) that a call came back with nothing to read."""
+    err = (getattr(out, 'stderr', None) or '').strip().replace('\n', ' ')[:160]
+    note = (f"OCR engine returned no text (exit {getattr(out, 'returncode', '?')}"
+            + (f": {err}" if err else '') + ')')
+    if note not in _TESS_PROBLEMS:
+        _TESS_PROBLEMS.append(note)
+
+
+def tesseract_problems() -> list[str]:
+    """Anything odd the OCR engine did this run - surfaced as OCR warnings."""
+    return list(_TESS_PROBLEMS)
+
+
 def _ocr(img: Image.Image, psm: int = 7, whitelist: str | None = None,
          target_px: int = 90, scale: int | None = None) -> str:
     tess = find_tesseract()
@@ -83,7 +100,14 @@ def _ocr(img: Image.Image, psm: int = 7, whitelist: str | None = None,
             cmd += ['-c', f'tessedit_char_whitelist={whitelist}']
         out = subprocess.run(cmd, capture_output=True, text=True,
                              env=_tess_env(tess), timeout=60)
-        return out.stdout.strip()
+        text = out.stdout
+        if text is None:
+            # Should be impossible with capture_output=True, but it has happened
+            # in the wild. One bad read must not kill the whole screenshot: note
+            # it, return nothing, and let the other passes try.
+            _note_tesseract_problem(out, cmd)
+            text = ''
+        return text.strip()
     finally:
         try:
             os.remove(path)
@@ -619,6 +643,9 @@ def parse_relic_image(source, raw_lines: list | None = None) -> dict:
         relic['warnings'].append('Could not read the main stat')
     if len(relic['substats']) < 2:
         relic['warnings'].append('Read fewer than 2 substats')
+    for problem in tesseract_problems():
+        if problem not in relic['warnings']:
+            relic['warnings'].append(problem)
     return relic
 
 

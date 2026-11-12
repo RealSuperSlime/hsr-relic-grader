@@ -25,6 +25,10 @@ dist/
 # The README explains how to fetch it.
 vendor/
 
+# V2 character art: HoYoverse's, fetched by tools/fetch_character_art.py.
+# Redistributing it is not ours to do.
+ui/static/art/
+
 # ---------------------------------------------------------------------------
 # Throwaway scripts used while building the OCR pipeline. Kept locally, not
 # published - the real tooling (extract_*.py, install_tesseract.py,
