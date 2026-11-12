@@ -17,6 +17,8 @@ PYTHON = os.path.join(ROOT, '.venv', 'Scripts', 'python.exe')
 SHORTCUTS = [
     ('HSR Relic Grader', os.path.join(ROOT, 'run_ui.bat'),
      'Grade HSR relics: pick a character, paste a screenshot'),
+    ('HSR Relic Grader V2', os.path.join(ROOT, 'run_ui_v2.bat'),
+     "Grade HSR relics with the character's art behind the grader"),
     ('HSR Relic Grader Bot', os.path.join(ROOT, 'discord_bot', 'start_bot.bat'),
      'Run the HSR relic grader Discord bot'),
     ('HSR Relic Grader (CLI)', os.path.join(ROOT, 'run.bat'),

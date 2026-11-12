@@ -24,7 +24,8 @@ if not exist "%PY%" (
 rem V2 draws the character's art behind the grader. That art is HoYoverse's and is
 rem deliberately not shipped with this project, so fetch it once if it is missing.
 if not exist "ui\static\art\1001.webp" (
-  echo Fetching character art (one time, ~9 MB)...
+  rem no brackets in this echo: ')' inside a block aborts the whole batch file
+  echo Fetching character art - one time, about 9 MB...
   ".venv\Scripts\python.exe" tools\fetch_character_art.py
   if errorlevel 1 (
     echo.
